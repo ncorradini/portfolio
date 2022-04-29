@@ -1,8 +1,10 @@
-import ToggleColorMode from './context/ColorModeContext/ColorModeProvider';
+import ToggleColorMode from './Layout/Layout';
+import Presentation from './components/Presentation';
 
 const App = () => {
   return (
     <ToggleColorMode>
+      <Presentation />
     </ToggleColorMode>
   );
 };
