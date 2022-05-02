@@ -1,23 +1,25 @@
 import { Box } from '@mui/material';
 import Personal from './Personal';
-import abstractBG from '../../assets/abstract-bg.png';
+import notebookSVG from '../../assets/notebook.svg';
 
 const Presentation = () => {
   return (
     <Box component="section" sx={{
       display: 'flex',
-      justifyContent: 'center',
       alignItems: 'center',
       height: '500px',
-      padding: '20px',
+      p: '20px',
     }}>
       <Personal />
-      <img
-        src={abstractBG}
-        style={{
-          width: '300px',
-        }}
-      />
+      <Box sx={{
+        width: '350px',
+        mt: '40px',
+      }}>
+
+        <img
+          src={notebookSVG}
+        />
+      </Box>
     </Box>
   );
 };
