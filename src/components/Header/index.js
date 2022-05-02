@@ -2,11 +2,11 @@ import ToggleMode from './ToggleMode';
 import { Box, Button } from '@mui/material';
 
 const Header = ({ colorMode, theme }) => {
-  const sections = ['aboutMe', 'skills', 'proyects', 'contact'];
+  const sections = ['aboutme', 'skills', 'proyects', 'contact'];
 
   const tradSection = text => {
     switch (text) {
-      case 'aboutMe': return 'Sobre mí';
+      case 'aboutme': return 'Sobre mí';
       case 'skills': return 'Skills';
       case 'proyects': return 'Proyectos';
       case 'contact': return 'Contacto';
@@ -29,15 +29,17 @@ const Header = ({ colorMode, theme }) => {
             key={section}
             color="secondary"
             disableRipple="true"
+            href={`#${section}`}
             sx={{
               my: 2,
               px: 2,
               display: 'block',
+              transition: '0.5s',
               '&.MuiButtonBase-root:hover': {
                 bgcolor: 'transparent',
+                opacity: '0.5',
               },
-            }}
-          >
+            }}>
             {tradSection(section)}
           </Button>
         ))}
