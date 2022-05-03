@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Container, createTheme, CssBaseline } from '@mui/material';
+import { createTheme, CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
 import { getPalette } from './PalettesColors';
 import Header from '../components/Header';
@@ -25,10 +25,8 @@ const ToggleColorMode = (props) => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="md">
-        <Header colorMode={colorMode} theme={theme} />
-        {props.children}
-      </Container>
+      <Header colorMode={colorMode} theme={theme} />
+      {props.children}
     </ThemeProvider>
   );
 };
