@@ -3,15 +3,15 @@ import skillsSVG from '../../assets/skills.svg';
 
 const AboutMe = () => {
   return (
-    <Box sx={{
+    <Box id="aboutme" sx={{
       mt: '50px',
       pt: '80px',
       background: 'linear-gradient(90deg, rgba(0,123,234,0.05) 5%, rgba(0,0,0,0) 70%)',
     }}>
       <Container maxWidth="md">
-        <Box component="section" id="aboutme" sx={{
+        <Box component="section" sx={{
           display: { lg: 'flex', md: 'flex', sm: 'block' },
-          height: { lg: '500px', md: '500px', sm: '800px' },
+          minHeight: '500px',
           padding: '20px',
         }}>
           <Box sx={{
@@ -41,7 +41,10 @@ const AboutMe = () => {
                 Procurador del buen código junto con el cumplimiento de los objetivos en tiempo y forma
               </Typography>
             </Box>
-            <Button variant="outlined" sx={{ width: '150px', mt: '40px', mr: '10px' }}>
+            <Button
+              href="#contact"
+              variant="outlined"
+              sx={{ width: '150px', mt: '40px', mr: '10px' }}>
               Contáctame
             </Button>
           </Box>

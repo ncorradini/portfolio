@@ -15,7 +15,10 @@ const Personal = () => {
         </Typography>
       </Box>
       <Box sx={{ display: 'flex' }}>
-        <Button variant="contained" sx={{ width: '150px', mt: '40px', mr: '10px' }}>
+        <Button
+          href="#contact"
+          variant="contained"
+          sx={{ width: '150px', mt: '40px', mr: '10px' }}>
           Contáctame
         </Button>
         <Button variant="outlined" sx={{ width: '150px', mt: '40px' }}>

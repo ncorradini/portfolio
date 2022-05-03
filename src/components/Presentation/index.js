@@ -8,7 +8,7 @@ const Presentation = () => {
       <Box component="section" sx={{
         display: 'flex',
         alignItems: 'center',
-        height: '500px',
+        height: '520px',
         p: '20px',
       }}>
         <Personal />
