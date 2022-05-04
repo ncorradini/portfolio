@@ -15,20 +15,29 @@ const CardProyect = ({ proyect }) => {
         component="img"
         alt="green iguana"
         height="150"
-        image="https://s3.amazonaws.com/creativetim_bucket/products/500/original/soft-ui-dashboard-material-ui.jpg?1632195046"
+        image={proyect.banner}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {proyect.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <Typography variant="body2" color="text.secondary" minHeight="80px">
+          {proyect.description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button variant="contained">Ver sitio</Button>
-        <Button variant="outlined">Ver código</Button>
+        <Button
+          target="_blank"
+          href={proyect.site}
+          variant="contained">
+          Ver sitio
+        </Button>
+        <Button
+          target="_blank"
+          href={proyect.code}
+          variant="outlined">
+          Ver código
+        </Button>
       </CardActions>
     </Card>
   );
