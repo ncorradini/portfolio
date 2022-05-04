@@ -24,7 +24,7 @@ const Header = props => {
 
             {/*  Menu List */}
             <Box sx={{
-              display: { md: 'flex', sm: 'flex', xs: 'flex' },
+              display: { md: 'flex', sm: 'flex', xs: 'none' },
               width: '100%',
               justifyContent: 'flex-end',
             }}>

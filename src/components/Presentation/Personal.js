@@ -21,7 +21,11 @@ const Personal = () => {
           sx={{ width: '150px', mt: '40px', mr: '10px' }}>
           Contáctame
         </Button>
-        <Button variant="outlined" sx={{ width: '150px', mt: '40px' }}>
+        <Button
+          target="_blank"
+          href="https://drive.google.com/file/d/1t0xB9F7ciasiTfXjybJGJ25ZimKf6nZs/view"
+          variant="outlined"
+          sx={{ width: '150px', mt: '40px' }}>
           Descargar CV
         </Button>
       </Box>
