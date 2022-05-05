@@ -10,7 +10,7 @@ const Contact = () => {
     }}>
       <Container maxWidth="md">
         <Box component="section" id="contact" sx={{
-          minHeight: '500px',
+          minHeight: '550px',
           display: 'flex',
           flexDirection: 'column',
         }}>

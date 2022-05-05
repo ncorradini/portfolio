@@ -11,7 +11,7 @@ const Personal = () => {
       </Typography>
       <Box sx={{ width: '80%', mt: '15px' }}>
         <Typography variant="p" color="secondary" fontWeight="regular">
-          Passionate about web development. Always learning new technologies. Here you will see some of my thoughts and projects.
+          Estudiante de la carrera Análisis de Sistemas. Diseñador Gráfico recibido. Programador JavaScript en constante aprendizaje.
         </Typography>
       </Box>
       <Box sx={{ display: 'flex' }}>

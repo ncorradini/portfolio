@@ -17,7 +17,10 @@ const Header = props => {
 
   return (
     <ElevationScroll {...props}>
-      <AppBar sx={{ background: 'linear-gradient(90deg, rgba(0,123,234,0.05) 5%, rgba(0,0,0,0.5) 70%)' }}>
+      <AppBar sx={{
+        background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,23,38,1) 100%)',
+        height: '50px',
+      }}>
         <Container maxWidth="md">
           <Box sx={{ display: 'flex', px: '10px' }}>
             <ToggleMode colorMode={colorMode} theme={theme} />
@@ -36,7 +39,7 @@ const Header = props => {
                   href={`#${section}`}
                   sx={{
                     color: '#fff',
-                    my: 2,
+                    my: 1.2,
                     px: 2,
                     display: 'block',
                     transition: '0.5s',
