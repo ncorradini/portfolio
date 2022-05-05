@@ -3,6 +3,7 @@ import { createTheme, CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
 import { getPalette } from './PalettesColors';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const ToggleColorMode = (props) => {
   const [mode, setMode] = useState('dark');
@@ -27,6 +28,7 @@ const ToggleColorMode = (props) => {
       <CssBaseline />
       <Header colorMode={colorMode} theme={theme} />
       {props.children}
+      <Footer />
     </ThemeProvider>
   );
 };
