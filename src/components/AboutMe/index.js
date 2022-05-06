@@ -4,7 +4,6 @@ import skillsSVG from '../../assets/skills.svg';
 const AboutMe = () => {
   return (
     <Box id="aboutme" sx={{
-      mt: '50px',
       pt: '80px',
       background: 'linear-gradient(90deg, rgba(0,123,234,0.05) 5%, rgba(0,0,0,0) 70%)',
     }}>

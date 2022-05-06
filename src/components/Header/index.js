@@ -17,14 +17,10 @@ const Header = props => {
 
   return (
     <ElevationScroll {...props}>
-      <AppBar sx={{
-        background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,23,38,1) 100%)',
-        height: '50px',
-      }}>
+      <AppBar sx={{ height: '50px' }}>
         <Container maxWidth="md">
           <Box sx={{ display: 'flex', px: '10px' }}>
             <ToggleMode colorMode={colorMode} theme={theme} />
-
             {/*  Menu List */}
             <Box sx={{
               display: { md: 'flex', sm: 'flex', xs: 'none' },
@@ -33,12 +29,12 @@ const Header = props => {
             }}>
               {sections.map((section) => (
                 <Button
-                  size="small"
                   key={section}
                   disableRipple="true"
                   href={`#${section}`}
                   sx={{
                     color: '#fff',
+                    fontSize: '12px',
                     my: 1.2,
                     px: 2,
                     display: 'block',
