@@ -4,12 +4,16 @@ import { proyects } from './listProyects';
 
 const Proyects = () => {
   return (
-    <Box id="proyects" sx={{ pt: '1px' }}>
+    <Box id="proyects" sx={{
+      pt: '1px',
+      borderTop: '2px solid rgba(255, 255, 255, 0.02)',
+      background: 'linear-gradient(90deg, rgba(0,123,234,0.05) 5%, rgba(0,0,0,0) 70%)',
+    }}>
       <Container maxWidth="md">
         <Box component="section" id="proyects" sx={{
           minHeight: '500px',
           mt: '100px',
-          mb: '150px',
+          pb: '150px',
           display: { lg: 'block', md: 'block', sm: 'flex', xs: 'flex' },
           flexDirection: 'column',
           alignItems: 'center',

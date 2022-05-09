@@ -4,13 +4,15 @@ import AboutMe from './components/AboutMe';
 import Proyects from './components/Proyects';
 import Contact from './components/Contact';
 import ScrollTop from './components/ScrollTop';
-import { Fab, Toolbar } from '@mui/material';
+import { Box, Fab, Toolbar } from '@mui/material';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 const App = () => {
   return (
     <ToggleColorMode>
-      <Toolbar id="back-to-top-anchor" />
+      <Box sx={{ height: '0px' }}>
+        <Toolbar id="back-to-top-anchor" />
+      </Box>
       <Presentation />
       <AboutMe />
       <Proyects />

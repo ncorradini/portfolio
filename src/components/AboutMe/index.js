@@ -5,7 +5,8 @@ const AboutMe = () => {
   return (
     <Box id="aboutme" sx={{
       pt: '80px',
-      background: 'linear-gradient(90deg, rgba(0,123,234,0.05) 5%, rgba(0,0,0,0) 70%)',
+      borderTop: '2px solid rgba(255, 255, 255, 0.02)',
+      background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.02) 70%)',
     }}>
       <Container maxWidth="md">
         <Box component="section" sx={{

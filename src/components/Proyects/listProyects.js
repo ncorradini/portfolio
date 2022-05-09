@@ -9,7 +9,7 @@ export const proyects = [
     banner: SOMOSMAS_BANNER,
     description: '[Proyecto Aceleración Alkemy] ReactJS, Redux(Thunk), Bootstrap, react-router-dom@v5, Formik/Yup, Lazy loading, etc...',
     code: 'https://github.com/alkemyTech/OT163-React-client',
-    site: 'https://github.com/alkemyTech/OT163-React-client',
+    site: 'https://alkemy-tech-ong-somos-mas.vercel.app',
   },
   {
     id: 2,
