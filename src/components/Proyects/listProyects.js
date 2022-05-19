@@ -1,6 +1,7 @@
 import SOMOSMAS_BANNER from '../../assets/somosmas-banner.JPG';
 import MENUAPP_BANNER from '../../assets/menuapp-banner.JPG';
 import GYMWORKAPP_BANNER from '../../assets/gymworkapp-banner.JPG';
+import MOVIEAPP_BANNER from '../../assets/movieapp-banner.JPG';
 
 export const proyects = [
   {
@@ -26,5 +27,13 @@ export const proyects = [
     description: 'ReactJS, Node.js, Express, MongoDB, JWT, Bcrypt, Context, react-router-dom@v6, SASS, Axios, alerts-Toastify, etc...',
     code: 'https://github.com/ncorradini/gymworkapp',
     site: 'https://gymworkapp-v1.herokuapp.com/',
+  },
+  {
+    id: 4,
+    title: 'MovieApp',
+    banner: MOVIEAPP_BANNER,
+    description: 'ReactJS, react-router-dom@v6, Axios, Redux-Toolkit, Material UI, etc...',
+    code: 'https://github.com/ncorradini/movieapp',
+    site: 'https://movieapp-v1.herokuapp.com/',
   },
 ];
