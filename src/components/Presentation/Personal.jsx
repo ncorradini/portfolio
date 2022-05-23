@@ -4,14 +4,14 @@ const Personal = () => {
   return (
     <Box>
       <Typography variant="p" color="primary" fontWeight="regular">
-        Desarrollador Frontend
+        Software Developer
       </Typography>
       <Typography variant="h2" color="secondary" fontWeight="bold">
         Nicolás Corradini
       </Typography>
       <Box sx={{ width: '80%', mt: '15px' }}>
         <Typography variant="p" color="secondary" fontWeight="regular">
-          Estudiante de la carrera Análisis de Sistemas. Diseñador Gráfico recibido. Programador JavaScript en constante aprendizaje.
+          Estudiante de la carrera Análisis de Sistemas. Diseñador Gráfico recibido. Desarrollador de software en constante aprendizaje.
         </Typography>
       </Box>
       <Box sx={{ display: 'flex' }}>

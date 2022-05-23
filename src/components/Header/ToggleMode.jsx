@@ -6,7 +6,15 @@ const ToggleMode = ({ colorMode, theme }) => {
   return (
     <IconButton
       disableRipple="true"
-      sx={{ color: '#fff', '&.MuiButtonBase-root:hover': { bgcolor: 'transparent' } }}
+      sx={{
+        height: '50px',
+        color: '#fff',
+        display: 'flex',
+        justifyContent: 'center',
+        '&.MuiButtonBase-root:hover': {
+          bgcolor: 'transparent',
+        },
+      }}
       onClick={colorMode.toggleColorMode}>
       {theme.palette.mode === 'dark'
         ? <Brightness7Icon />

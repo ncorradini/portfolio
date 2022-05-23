@@ -9,7 +9,7 @@ const CardProyect = ({ proyect }) => {
   return (
     <Card variant="outlined" sx={{
       width: { md: '250px', sm: '80%', xs: '80%' },
-      m: { sm: '30px auto', xs: '30px auto' },
+      m: { md: '20px 0', sm: '30px auto', xs: '30px auto' },
     }}>
       <CardMedia
         component="img"
