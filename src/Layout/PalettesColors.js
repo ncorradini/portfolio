@@ -8,7 +8,7 @@ export const getPalette = (mode) => ({
           default: '#F2F2F2',
         },
         primary: {
-          main: '#007BEA',
+          main: '#1E7CE8',
         },
         secondary: {
           main: '#1A2027',
@@ -17,13 +17,13 @@ export const getPalette = (mode) => ({
       : {
         // palette values for dark mode
         background: {
-          default: '#070E16',
+          default: '#18191c',
         },
         primary: {
-          main: '#007BEA',
+          main: '#1E7CE8',
         },
         secondary: {
-          main: '#fff',
+          main: '#F2F2F2',
         },
       }),
   },
