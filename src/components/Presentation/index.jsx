@@ -1,6 +1,5 @@
 import { Box, Container } from '@mui/material';
 import Personal from './Personal';
-import devPNG from '../../assets/dev.png';
 
 const Presentation = () => {
   return (
@@ -15,9 +14,8 @@ const Presentation = () => {
         <Box sx={{
           display: { lg: 'block', md: 'block', sm: 'block', xs: 'none' },
           width: '350px',
-          mt: '80px',
+          mt: '30px',
         }}>
-          <img src={devPNG} />
         </Box>
       </Box>
     </Container>
