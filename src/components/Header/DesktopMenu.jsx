@@ -1,7 +1,7 @@
 import { Box, Button } from '@mui/material';
+import { SECTIONS, tradSection } from './sectionsList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { SECTIONS, tradSection } from './sectionsList';
 
 const DesktopMenu = () => {
   return (
@@ -36,7 +36,7 @@ const DesktopMenu = () => {
         target="_blank"
         rel="noreferrer">
         <GitHubIcon
-          color="secondary"
+          color="primary"
           sx={{
             cursor: 'pointer',
             fontSize: '24px',
@@ -55,7 +55,7 @@ const DesktopMenu = () => {
         style={{ cursor: 'default' }}
       >
         <LinkedInIcon
-          color="secondary"
+          color="primary"
           sx={{
             cursor: 'pointer',
             fontSize: '24px',

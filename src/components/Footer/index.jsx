@@ -7,7 +7,6 @@ const Footer = () => {
         display: 'flex',
         alignItems: 'center',
         minHeight: '100px',
-        mt: { sm: '30px', xs: '30px' },
         color: '#999999',
         textAlign: 'center',
         boxShadow: '0px 5px 10px 0px rgba(0,0,0,0.2)',

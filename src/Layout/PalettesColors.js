@@ -11,13 +11,13 @@ export const getPalette = (mode) => ({
           main: '#1E7CE8',
         },
         secondary: {
-          main: '#1A2027',
+          main: '#18191C',
         },
       }
       : {
         // palette values for dark mode
         background: {
-          default: '#18191c',
+          default: '#18191C',
         },
         primary: {
           main: '#1E7CE8',

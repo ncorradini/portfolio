@@ -1,5 +1,4 @@
 import { Box, Button, Container, Typography } from '@mui/material';
-import skillsSVG from '../../assets/skills.svg';
 
 const AboutMe = () => {
   return (
@@ -18,7 +17,7 @@ const AboutMe = () => {
             display: { lg: 'block', md: 'block', sm: 'none', xs: 'none' },
             width: '30%',
           }}>
-            <img src={skillsSVG}/>
+
           </Box>
           <Box sx={{
             width: { lg: '60%', md: '60%', sm: '90%' },

@@ -7,6 +7,7 @@ const ContactForm = () => {
       flexDirection: 'column',
       width: { lg: '50%', md: '50%', sm: '90%', xs: '90%' },
       mt: { lg: '30px', xs: '50px ' },
+      mb: '80px',
       mx: 'auto',
     }}>
       <Typography fontSize="small" color="gray">
