@@ -1,24 +1,31 @@
-import Brightness4Icon from '@mui/icons-material/Brightness4';
-import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { IconButton } from '@mui/material';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 
 const ToggleMode = ({ colorMode, theme }) => {
+  const DarkIcon = () => (
+    <DarkModeOutlinedIcon color="primary"
+      sx={{
+        transition: '0.5s',
+        '&:hover': { opacity: '0.5' },
+      }}/>
+  );
+
+  const LightIcon = () => (
+    <LightModeOutlinedIcon color="primary" sx={{
+      transition: '0.5s',
+      '&:hover': { opacity: '0.5' },
+    }} />
+  );
+
   return (
     <IconButton
       disableRipple="true"
-      sx={{
-        height: '50px',
-        color: '#fff',
-        display: 'flex',
-        justifyContent: 'center',
-        '&.MuiButtonBase-root:hover': {
-          bgcolor: 'transparent',
-        },
-      }}
+      color="secondary"
       onClick={colorMode.toggleColorMode}>
       {theme.palette.mode === 'dark'
-        ? <Brightness7Icon />
-        : <Brightness4Icon />
+        ? DarkIcon()
+        : LightIcon()
       }
     </IconButton>
   );

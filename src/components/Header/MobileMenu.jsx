@@ -23,7 +23,7 @@ const MobileMenu = () => {
         aria-haspopup="true"
         onClick={handleOpenNavMenu}
       >
-        <MenuIcon sx={{ color: '#fff' }} />
+        <MenuIcon color="secondary" />
       </IconButton>
 
       <Menu
@@ -48,10 +48,9 @@ const MobileMenu = () => {
           <MenuItem key={section} onClick={handleCloseNavMenu}>
             <Button
               href={`#${section}`}
-              sx={{
-                color: '#fff',
-                my: 1.2,
-              }}>
+              color="secondary"
+              sx={{ my: 1.2 }}
+            >
               {tradSection(section)}
             </Button>
           </MenuItem>

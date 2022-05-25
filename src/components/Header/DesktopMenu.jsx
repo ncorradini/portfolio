@@ -16,8 +16,8 @@ const DesktopMenu = () => {
           key={section}
           disableRipple="true"
           href={`#${section}`}
+          color="secondary"
           sx={{
-            color: '#fff',
             fontSize: '11px',
             my: 1.2,
             px: 2,
@@ -32,18 +32,40 @@ const DesktopMenu = () => {
         </Button>
       ))}
       <a
-        style={{ color: '#919090' }}
         href="https://github.com/ncorradini"
         target="_blank"
         rel="noreferrer">
-        <GitHubIcon sx={{ fontSize: '22px', m: '8px', pt: '5px' }} />
+        <GitHubIcon
+          color="secondary"
+          sx={{
+            cursor: 'pointer',
+            fontSize: '24px',
+            m: '8px',
+            pt: '5px',
+            transition: '0.5s',
+            '&:hover': {
+              opacity: '0.5',
+            },
+          }} />
       </a>
       <a
-        style={{ color: '#919090' }}
         href="https://www.linkedin.com/in/nicolascorradini/"
         target="_blank"
-        rel="noreferrer">
-        <LinkedInIcon sx={{ fontSize: '24px', m: '8px', pt: '5px' }} />
+        rel="noreferrer"
+        style={{ cursor: 'default' }}
+      >
+        <LinkedInIcon
+          color="secondary"
+          sx={{
+            cursor: 'pointer',
+            fontSize: '24px',
+            m: '8px',
+            pt: '5px',
+            transition: '0.5s',
+            '&:hover': {
+              opacity: '0.5',
+            },
+          }} />
       </a>
     </Box>
   );
