@@ -24,8 +24,8 @@ const ToggleMode = ({ colorMode, theme }) => {
       color="secondary"
       onClick={colorMode.toggleColorMode}>
       {theme.palette.mode === 'dark'
-        ? DarkIcon()
-        : LightIcon()
+        ? LightIcon()
+        : DarkIcon()
       }
     </IconButton>
   );
