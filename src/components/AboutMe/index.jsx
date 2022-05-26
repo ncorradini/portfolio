@@ -1,5 +1,5 @@
 import { Box, Button, Container, Typography } from '@mui/material';
-// import infoPNG from '../../assets/info.png';
+import infoPNG from '../../assets/info.png';
 
 const AboutMe = () => {
   return (
@@ -17,13 +17,12 @@ const AboutMe = () => {
           <Box sx={{
             display: { lg: 'block', md: 'block', sm: 'none', xs: 'none' },
             width: '30%',
-            pt: '20px',
-            pl: '60px',
+            pt: '80px',
           }}>
-            {/* <img src={infoPNG} style={{
-              width: '200px',
-              opacity: '0.6',
-            }} /> */}
+            <img src={infoPNG} style={{
+              width: '300px',
+              opacity: '0.5',
+            }} />
           </Box>
           <Box sx={{
             width: { lg: '60%', md: '60%', sm: '90%' },

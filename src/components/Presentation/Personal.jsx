@@ -4,7 +4,7 @@ const Personal = () => {
   return (
     <Box>
       <Typography variant="p" color="primary" fontWeight="regular">
-        Software Developer
+        》Software Developer
       </Typography>
       <Typography variant="h2" color="secondary" fontWeight="bold">
         Corradini <span style={{ color: '#1E7CE8' }}>Nicolás</span>

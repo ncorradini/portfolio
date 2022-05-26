@@ -22,7 +22,7 @@ const Presentation = () => {
           }}>
             <img src={devPNG} style={{
               width: '300px',
-              opacity: '0.8',
+              opacity: '0.5',
             }}
             />
           </Box>
