@@ -1,11 +1,12 @@
 import { Box, Button, Container, Typography } from '@mui/material';
+// import infoPNG from '../../assets/info.png';
 
 const AboutMe = () => {
   return (
     <Box id="aboutme" sx={{
       pt: '80px',
       borderTop: '2px solid rgba(255, 255, 255, 0.02)',
-      background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.02) 70%)',
+      background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.05) 100%)',
     }}>
       <Container maxWidth="md">
         <Box component="section" sx={{
@@ -16,27 +17,39 @@ const AboutMe = () => {
           <Box sx={{
             display: { lg: 'block', md: 'block', sm: 'none', xs: 'none' },
             width: '30%',
+            pt: '20px',
+            pl: '60px',
           }}>
-
+            {/* <img src={infoPNG} style={{
+              width: '200px',
+              opacity: '0.6',
+            }} /> */}
           </Box>
           <Box sx={{
             width: { lg: '60%', md: '60%', sm: '90%' },
             ml: { lg: '100px', md: '100px', sm: '0' },
-
           }}>
             <Typography variant="h5" color="secondary" fontWeight="medium">
               SOBRE MÍ
             </Typography>
-            <Box sx={{ mt: '10px' }}>
+            <Box sx={{ mt: '10px', display: { sm: 'flex', xs: 'block' }, alignItems: 'center' }}>
               <Typography variant="p" color="primary" fontWeight="regular">
-                Desarrollador front-end especializado en React JS
+                Desarrollador de Software
+              </Typography>
+              <Typography color="secondary" sx={{
+                borderLeft: { sm: '1px solid rgba(110, 110, 110, 0.5)', xs: 'none' },
+                ml: { sm: '5px', xs: 'none' },
+                pl: { sm: '5px', xs: 'none' },
+                fontSize: '12px',
+              }}>
+                Especializado en front-end
               </Typography>
             </Box>
             <Box sx={{ mt: '20px' }}>
               <Typography variant="p" fontWeight="regular">
-                Sólidos conocimientos en front-end: React JS, HTML, CSS, SASS, Bootstrap, Material UI, Redux, React-Context, Formik, LazyLoad, etc...<br />
-                Comprensión de los principios de diseño UI/UX.<br />
-                Desarrollo back-end con Node.js, Express, MongoDB, autenticación con JWT.<br/>
+                Sólidos conocimientos en front-end: React JS, HTML, CSS, SASS, Bootstrap, Material UI, Redux, etc...<br />
+                Comprensión de los principios de diseño UI / UX.<br />
+                Desarrollo back-end con Node.js, Express, MongoDB, JWT. Actualmente aprendiendo Java.<br/>
                 Procurador del buen código junto con el cumplimiento de los objetivos en tiempo y forma
               </Typography>
             </Box>

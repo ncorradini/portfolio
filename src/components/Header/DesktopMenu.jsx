@@ -3,6 +3,17 @@ import { SECTIONS, tradSection } from './sectionsList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+const iconStyles = {
+  cursor: 'pointer',
+  fontSize: '24px',
+  m: '8px',
+  pt: '5px',
+  transition: '0.5s',
+  '&:hover': {
+    opacity: '0.5',
+  },
+};
+
 const DesktopMenu = () => {
   return (
     <Box sx={{
@@ -35,37 +46,13 @@ const DesktopMenu = () => {
         href="https://github.com/ncorradini"
         target="_blank"
         rel="noreferrer">
-        <GitHubIcon
-          color="primary"
-          sx={{
-            cursor: 'pointer',
-            fontSize: '24px',
-            m: '8px',
-            pt: '5px',
-            transition: '0.5s',
-            '&:hover': {
-              opacity: '0.5',
-            },
-          }} />
+        <GitHubIcon color="primary" sx={iconStyles} />
       </a>
       <a
         href="https://www.linkedin.com/in/nicolascorradini/"
         target="_blank"
-        rel="noreferrer"
-        style={{ cursor: 'default' }}
-      >
-        <LinkedInIcon
-          color="primary"
-          sx={{
-            cursor: 'pointer',
-            fontSize: '24px',
-            m: '8px',
-            pt: '5px',
-            transition: '0.5s',
-            '&:hover': {
-              opacity: '0.5',
-            },
-          }} />
+        rel="noreferrer">
+        <LinkedInIcon color="primary" sx={iconStyles} />
       </a>
     </Box>
   );

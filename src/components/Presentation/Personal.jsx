@@ -7,9 +7,9 @@ const Personal = () => {
         Software Developer
       </Typography>
       <Typography variant="h2" color="secondary" fontWeight="bold">
-        Nicolás Corradini
+        Corradini <span style={{ color: '#1E7CE8' }}>Nicolás</span>
       </Typography>
-      <Box sx={{ width: '80%', mt: '15px' }}>
+      <Box sx={{ mt: '15px', maxWidth: '600px' }}>
         <Typography variant="p" color="secondary" fontWeight="regular">
           Estudiante de la carrera Análisis de Sistemas. Diseñador Gráfico recibido. Desarrollador de software en constante aprendizaje.
         </Typography>

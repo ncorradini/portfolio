@@ -7,7 +7,7 @@ const Contact = () => {
     <Box sx={{
       pt: '80px',
       borderTop: '2px solid rgba(255, 255, 255, 0.02)',
-      background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.03) 70%)',
+      background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.05) 100%)',
     }}>
       <Container maxWidth="md">
         <Box component="section" id="contact" sx={{
