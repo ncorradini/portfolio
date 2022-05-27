@@ -1,5 +1,5 @@
 import { Box, Container, Typography } from '@mui/material';
-import CardProyect from './CardProyect/CardProyect';
+import CardProyect from './CardProyect';
 import { proyects } from './listProyects';
 
 const Proyects = () => {
@@ -22,7 +22,6 @@ const Proyects = () => {
             PROYECTOS
           </Typography>
           <Box sx={{
-            mt: '30px',
             display: { lg: 'flex', md: 'flex', sm: 'block' },
             flexFlow: 'wrap',
             justifyContent: 'space-between',

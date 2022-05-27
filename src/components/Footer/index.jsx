@@ -3,17 +3,17 @@ import { Box, Container, Typography } from '@mui/material';
 const Footer = () => {
   return (
     <Box
-      bgcolor="primary.main"
       sx={{
         display: 'flex',
         alignItems: 'center',
-        minHeight: '60px',
-        color: 'rgba(255, 255, 255, 0.8)',
+        minHeight: '80px',
+        color: 'black',
         textAlign: 'center',
         boxShadow: '0px 5px 10px 0px rgba(0,0,0,0.2)',
+        background: 'rgba(110, 110, 110, 0.1)',
       }}>
       <Container maxWidth="md">
-        <Typography fontSize="11px">
+        <Typography color="secondary" sx={{ opacity: 0.5, fontSize: '11px' }}>
           Sitio web diseñado por Nicolás Corradini © 2022
           <br />
           》Software Developer
