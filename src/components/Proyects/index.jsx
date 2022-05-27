@@ -22,7 +22,7 @@ const Proyects = () => {
             PROYECTOS
           </Typography>
           <Box sx={{
-            display: { lg: 'flex', md: 'flex', sm: 'block' },
+            display: { md: 'flex', sm: 'block' },
             flexFlow: 'wrap',
             justifyContent: 'space-between',
           }}>
