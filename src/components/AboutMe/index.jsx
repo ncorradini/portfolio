@@ -8,7 +8,7 @@ const AboutMe = () => {
       borderTop: '2px solid rgba(255, 255, 255, 0.02)',
       background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.05) 100%)',
     }}>
-      <Container maxWidth="md" sx={{ p: '5px' }}>
+      <Container maxWidth="md" sx={{ pl: '5px' }}>
         <Box component="section" sx={{
           display: { lg: 'flex', md: 'flex', sm: 'block' },
           minHeight: '500px',
