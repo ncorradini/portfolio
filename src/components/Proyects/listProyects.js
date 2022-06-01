@@ -20,7 +20,7 @@ export const proyects = [
     techs: ['#ReactJS', '#CSS', '#SASS', '#Context'],
     code: 'https://github.com/ncorradini/menuapp',
     site: 'https://menuapp-react.herokuapp.com/',
-    inProgress: true,
+    inProgress: false,
   },
   {
     id: 3,
