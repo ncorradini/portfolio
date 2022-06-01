@@ -20,7 +20,7 @@ const ToggleMode = ({ colorMode, theme }) => {
 
   return (
     <IconButton
-      disableRipple="true"
+      disableRipple={true}
       color="secondary"
       onClick={colorMode.toggleColorMode}>
       {theme.palette.mode === 'dark'

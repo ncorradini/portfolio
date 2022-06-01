@@ -12,7 +12,7 @@ const Presentation = () => {
           display: 'flex',
           alignItems: 'center',
           height: '580px',
-          p: '80px 20px 20px 20px',
+          p: { sm: '80px 20px 20px 20px', xs: '80px 20px 20px 5px' },
         }}>
           <Personal />
           <Box sx={{

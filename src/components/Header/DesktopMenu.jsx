@@ -25,7 +25,7 @@ const DesktopMenu = () => {
       {SECTIONS.map((section) => (
         <Button
           key={section}
-          disableRipple="true"
+          disableRipple={true}
           href={`#${section}`}
           color="secondary"
           sx={{

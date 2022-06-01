@@ -8,14 +8,14 @@ const AboutMe = () => {
       borderTop: '2px solid rgba(255, 255, 255, 0.02)',
       background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.05) 100%)',
     }}>
-      <Container maxWidth="md">
+      <Container maxWidth="md" sx={{ p: '0px' }}>
         <Box component="section" sx={{
           display: { lg: 'flex', md: 'flex', sm: 'block' },
           minHeight: '500px',
           padding: '20px',
         }}>
           <Box sx={{
-            display: { lg: 'block', md: 'block', sm: 'none', xs: 'none' },
+            display: { md: 'block', sm: 'none', xs: 'none' },
             width: '30%',
             pt: '80px',
           }}>
@@ -25,13 +25,17 @@ const AboutMe = () => {
             }} />
           </Box>
           <Box sx={{
-            width: { lg: '60%', md: '60%', sm: '90%' },
-            ml: { lg: '100px', md: '100px', sm: '0' },
+            width: { md: '60%', sm: '100%' },
+            ml: { md: '100px', xs: '0px' },
           }}>
             <Typography variant="h5" color="secondary" fontWeight="medium">
               SOBRE MÍ
             </Typography>
-            <Box sx={{ mt: '10px', display: { sm: 'flex', xs: 'block' }, alignItems: 'center' }}>
+            <Box sx={{
+              mt: '10px',
+              display: { sm: 'flex', xs: 'block' },
+              alignItems: 'center',
+            }}>
               <Typography variant="p" color="primary" fontWeight="regular">
                 Desarrollador de Software
               </Typography>

@@ -15,7 +15,7 @@ const Header = props => {
       display: 'flex',
       alignItems: 'center',
       background: 'rgba(255, 255, 255, 0.0)',
-      backdropFilter: 'blur(50px)',
+      backdropFilter: 'blur(10px)',
       boxShadow: '0px 0px 1.5px 0px rgba(110, 110, 110,0.5)',
     }}>
       <Container maxWidth="md">
