@@ -52,7 +52,7 @@ const AboutMe = () => {
               <Typography variant="p" fontWeight="regular">
                 Sólidos conocimientos en front-end: React JS, HTML, CSS, SASS, Bootstrap, Material UI, Redux, etc...<br />
                 Comprensión de los principios de diseño UI / UX.<br />
-                Desarrollo back-end con Node.js, Express, MongoDB, JWT. Actualmente aprendiendo Java.<br/>
+                Desarrollo back-end: bases en Node.js, Express, SQL, MongoDB, MySQL. Actualmente aprendiendo C# y .NET.<br/>
                 Procurador del buen código junto con el cumplimiento de los objetivos en tiempo y forma
               </Typography>
             </Box>
