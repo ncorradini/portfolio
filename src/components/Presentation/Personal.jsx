@@ -23,7 +23,7 @@ const Personal = () => {
         </Button>
         <Button
           target="_blank"
-          href="https://drive.google.com/file/d/1t0xB9F7ciasiTfXjybJGJ25ZimKf6nZs/view"
+          href="https://drive.google.com/file/d/1hyDeeuL9vbFCR3dXGpDiWVFnWY_YHx-B/view?usp=sharing"
           variant="outlined"
           sx={{ width: '150px', mt: '40px' }}>
           Descargar CV
