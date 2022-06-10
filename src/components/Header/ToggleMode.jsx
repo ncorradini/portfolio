@@ -6,6 +6,7 @@ const ToggleMode = ({ colorMode, theme }) => {
   const DarkIcon = () => (
     <DarkModeOutlinedIcon color="primary"
       sx={{
+        fontSize: { sm: '20px', xs: '30px' },
         transition: '0.5s',
         '&:hover': { opacity: '0.5' },
       }}/>
@@ -13,6 +14,7 @@ const ToggleMode = ({ colorMode, theme }) => {
 
   const LightIcon = () => (
     <LightModeOutlinedIcon color="primary" sx={{
+      fontSize: { sm: '20px', xs: '30px' },
       transition: '0.5s',
       '&:hover': { opacity: '0.5' },
     }} />

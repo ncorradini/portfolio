@@ -12,13 +12,13 @@ const Presentation = () => {
           display: 'flex',
           alignItems: 'center',
           height: '580px',
-          p: { sm: '80px 20px 20px 20px', xs: '80px 20px 20px 5px' },
+          p: { sm: '80px 20px 20px 20px', xs: '110px 20px 20px 5px' },
         }}>
           <Personal />
           <Box sx={{
             display: { md: 'block', xs: 'none' },
-            width: '350px',
             mt: '40px',
+            ml: '40px',
           }}>
             <img src={devPNG} style={{
               width: '300px',

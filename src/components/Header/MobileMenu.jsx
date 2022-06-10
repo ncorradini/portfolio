@@ -17,13 +17,12 @@ const MobileMenu = () => {
   return (
     <Box sx={{ flexGrow: 1, display: { xs: 'flex', sm: 'none' }, justifyContent: 'flex-end' }}>
       <IconButton
-        size="large"
         aria-label="account of current user"
         aria-controls="menu-appbar"
         aria-haspopup="true"
         onClick={handleOpenNavMenu}
       >
-        <MenuIcon color="secondary" />
+        <MenuIcon color="secondary" sx={{ fontSize: '30px' }} />
       </IconButton>
 
       <Menu

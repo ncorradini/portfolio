@@ -22,12 +22,12 @@ const Header = props => {
         <Box sx={{
           display: 'flex',
           alignItems: 'center',
-          px: '10px',
+          px: { sm: '10px', xs: '0px' },
         }}>
           <ToggleMode colorMode={colorMode} theme={theme} />
           <Typography sx={{
             pl: '10px',
-            fontSize: '12px',
+            fontSize: { sm: '12px', xs: '14px' },
             opacity: '0.5',
             borderLeft: '1px solid rgba(110, 110, 110, 0.5)',
           }}>

@@ -6,7 +6,7 @@ const AboutMe = () => {
     <Box id="aboutme" sx={{
       pt: '80px',
       borderTop: '2px solid rgba(255, 255, 255, 0.02)',
-      background: 'linear-gradient(90deg, rgba(0,0,0,0) 5%, rgba(0,123,234,0.05) 100%)',
+      background: 'linear-gradient(90deg, rgba(0,0,0,0.01) 5%, rgba(0,123,234,0.05) 100%)',
     }}>
       <Container maxWidth="md" sx={{ pl: '5px' }}>
         <Box component="section" sx={{
@@ -52,7 +52,7 @@ const AboutMe = () => {
               <Typography variant="p" fontWeight="regular">
                 Sólidos conocimientos en front-end: React JS, HTML, CSS, SASS, Bootstrap, Material UI, Redux, etc...<br />
                 Comprensión de los principios de diseño UI / UX.<br />
-                Desarrollo back-end: bases en Node.js, Express, SQL, MongoDB, MySQL. Actualmente aprendiendo C# y .NET.<br/>
+                Desarrollo back-end: bases en Node.js, Express, MongoDB. Actualmente aprendiendo C#, .NET (.NET Core / ASP.NET Core) y SQL Server.<br/>
                 Procurador del buen código junto con el cumplimiento de los objetivos en tiempo y forma
               </Typography>
             </Box>

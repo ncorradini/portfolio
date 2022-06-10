@@ -7,7 +7,7 @@ const Proyects = () => {
     <Box id="proyects" sx={{
       pt: '1px',
       borderTop: '2px solid rgba(255, 255, 255, 0.02)',
-      background: 'linear-gradient(90deg, rgba(0,123,234,0.05) 5%, rgba(0,0,0,0) 100%)',
+      background: 'linear-gradient(90deg, rgba(0,123,234,0.01) 5%, rgba(0,0,0,0.05) 100%)',
     }}>
       <Container maxWidth="md">
         <Box component="section" id="proyects" sx={{
