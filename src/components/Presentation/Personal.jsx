@@ -2,7 +2,7 @@ import { Box, Button, Typography } from '@mui/material';
 
 const Personal = () => {
   return (
-    <Box>
+    <Box className="animate__animated animate__fadeInDown">
       <Typography variant="p" color="primary" fontWeight="regular">
         》Software Developer
       </Typography>

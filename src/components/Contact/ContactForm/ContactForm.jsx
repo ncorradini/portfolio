@@ -2,14 +2,16 @@ import { Box, Button, TextField, Typography } from '@mui/material';
 
 const ContactForm = () => {
   return (
-    <Box sx={{
-      display: { sm: 'flex', xs: 'none' },
-      flexDirection: 'column',
-      width: { lg: '50%', md: '50%', sm: '90%', xs: '90%' },
-      mt: { lg: '30px', xs: '50px ' },
-      mb: '80px',
-      mx: 'auto',
-    }}>
+    <Box
+      className="animate__animated animate__fadeInRight"
+      sx={{
+        display: { sm: 'flex', xs: 'none' },
+        flexDirection: 'column',
+        width: { lg: '50%', md: '50%', sm: '90%', xs: '90%' },
+        mt: { lg: '30px', xs: '50px ' },
+        mb: '80px',
+        mx: 'auto',
+      }}>
       <Typography fontSize="small" color="gray">
         ¡Envíame un mensaje por correo y te responderé pronto!
       </Typography>
