@@ -58,14 +58,14 @@ const AboutMe = () => {
                 pl: { sm: '5px', xs: 'none' },
                 fontSize: '12px',
               }}>
-                Especializado en front-end
+                Especializado en JavaScript
               </Typography>
             </Box>
             <Box sx={{ mt: '20px' }}>
               <Typography variant="p" fontWeight="regular">
                 Sólidos conocimientos en front-end: React JS, HTML, CSS, SASS, Bootstrap, Material UI, Redux, etc...<br />
                 Comprensión de los principios de diseño UI / UX.<br />
-                Desarrollo back-end: bases en Node.js, Express, MongoDB. Actualmente aprendiendo C#, .NET (.NET Core / ASP.NET Core) y SQL Server.<br/>
+                Desarrollo back-end: Node.js, Express, MongoDB, Sequelize, MySQL, etc...<br/>
                 Procurador del buen código junto con el cumplimiento de los objetivos en tiempo y forma
               </Typography>
             </Box>
