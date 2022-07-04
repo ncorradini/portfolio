@@ -20,11 +20,7 @@ const ToggleColorMode = (props) => {
 
   const theme = useMemo(
     () =>
-      createTheme(getPalette(mode), {
-        typography: {
-          fontFamily: 'Inter, sans-serif',
-        },
-      }),
+      createTheme(getPalette(mode)),
     [mode],
   );
 
