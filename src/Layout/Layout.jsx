@@ -6,8 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const ToggleColorMode = (props) => {
-  const vw = screen.width;
-  const [mode, setMode] = useState(vw < 400 ? 'dark' : 'light');
+  const [mode, setMode] = useState('light');
 
   const colorMode = useMemo(
     () => ({

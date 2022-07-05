@@ -18,7 +18,7 @@ const Social = () => {
                   href={item?.href}
                   target="_blank"
                   rel="noreferrer"
-                  style={{ color: '#007BEA' }}
+                  style={{ color: '#26b0ff' }}
                 >
                   {item.data}
                 </a>

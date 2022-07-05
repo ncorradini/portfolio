@@ -50,7 +50,7 @@ const AboutMe = () => {
               alignItems: 'center',
             }}>
               <Typography variant="p" color="primary" fontWeight="regular">
-                Desarrollador de Software
+                👨‍💻 Desarrollador de Software
               </Typography>
               <Typography color="secondary" sx={{
                 borderLeft: { sm: '1px solid rgba(110, 110, 110, 0.5)', xs: 'none' },
@@ -58,7 +58,7 @@ const AboutMe = () => {
                 pl: { sm: '5px', xs: 'none' },
                 fontSize: '12px',
               }}>
-                Especializado en JavaScript
+                Especializado en Frontend
               </Typography>
             </Box>
             <Box sx={{ mt: '20px' }}>
