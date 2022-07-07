@@ -1,7 +1,7 @@
 import SOMOSMAS_BANNER from '../../assets/somosmas-banner.JPG';
 import MENUAPP_BANNER from '../../assets/menuapp-banner.JPG';
 import GYMWORKAPP_BANNER from '../../assets/gymworkapp-banner.JPG';
-import MOVIEAPP_BANNER from '../../assets/movieapp-banner.JPG';
+import CHALLENGE from '../../assets/estoes-challenge-banner.JPG';
 
 export const proyects = [
   {
@@ -33,11 +33,11 @@ export const proyects = [
   },
   {
     id: 4,
-    title: 'MOVIEAPP',
-    banner: MOVIEAPP_BANNER,
-    techs: ['#ReactJS', '#HTML', '#CSS', '#Redux-Toolkit', '#Material-UI'],
-    code: 'https://github.com/ncorradini/movieapp',
-    site: 'https://movieapp-v1.herokuapp.com/',
+    title: 'CHALLENGE CRUD',
+    banner: CHALLENGE,
+    techs: ['#ReactJS', '#Material-UI', '#Redux'],
+    code: 'https://github.com/ncorradini/estoes-challenge',
+    site: 'https://challenge-v1.herokuapp.com/',
     inProgress: true,
   },
 ];
